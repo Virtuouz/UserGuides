@@ -59,6 +59,12 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.on("eleventy.after", () => {
+    execSync(
+      "npx -y pagefind@latest --source _site",
+    );
+  });
+
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addFilter("process_content", text => {
