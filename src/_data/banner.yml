@@ -1,7 +1,7 @@
 enable_banner: true
-html: <p>This banner is completely optional, and can be shown until a set date!</p>
-id: alto-banner
-show_until: 2024-01-31T00:00:00Z
+html: <p>🚧 Guides are still under construction, there is more to come 🚧</p>
+id: 20240627-UnderConstruction
+show_until: 2024-07-31T00:00:00Z
 _inputs:
   enable_banner:
     type: switch
