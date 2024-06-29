@@ -17,4 +17,27 @@ When you access your websites configuration and editor it can look overwhelming 
 
 ## Dashboard
 
-&nbsp;
+![](/assets/images/uploads/image-2.png)
+
+The dashboard is what you will first see when you load into your websites editor. You'll see some basic information including:
+
+* A preview of your website on how it look on a computer and mobile phone
+* Left hand side navigation to your websites pages and data
+* Recent activity
+* Basic actions
+
+You can always access these guides again by clicking on the "?" in the left hand side navigation.
+
+![](/assets/images/uploads/image-5.png)
+
+Overall you won't be spending much time on the dashboard. Lets move onto what you are here for, creating and updating pages!
+
+## Creating pages
+
+Creating pages is as easy as clicking button! Once you are in the pages section of your website (you get here by clicking on the "Pages" in the left hand navigation) you can start creating new pages.
+
+![](/assets/images/uploads/image-4.png)
+
+### Creating Folders
+
+As your business grows your website is likely to grow with it. To help keep your website organized you can create folders to place your pages into. You create a folder the same way you create a page.
