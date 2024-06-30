@@ -132,4 +132,4 @@ Where you save changes is also where you go to undo a change you don't want to m
 
 Anytime you save changes your website has to rebuild to apply the changes. Building takes time and will use up build minutes.
 
-You should make all the changes you want to make and save them all at the same time. It is not recommended to make and save individual changes if you have many planned.
+You should make all the changes you want to make and save them all at the same time. It is not recommended to make and save individual changes if you have many planned. You should also refresh the page once your website has finished building (denoted by the green circle with a checkmark)
