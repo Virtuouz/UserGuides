@@ -58,4 +58,62 @@ The page editor has two modes, split screen and full screen. You can toggle betw
 
 ![](/assets/images/uploads/image-7.png)
 
+#### Content editor
+
+![](/assets/images/uploads/image-9.png)
+
+There are two editors that are part of the page editor. The first one is the content editor and this one is ONLY text based. Any time you open up to edit a page you will always open to the content editor first. Any information or text you place here will always be placed at the bottom of the page. However, we generally don't recommend using this text editor as visually editable text blocks exist. This should **ONLY** be used when a page is only going to be text.
+
+New pages will show the text editor by default.
+
+&nbsp;
+
+#### Visual editor
+
+![](/assets/images/uploads/image-10.png)
+
+This is the second editor and the one that you are most likely to use. This editor lets you visually see changes and updates to a website before saving them. It updates as you add or remove information. The adding or removing of information is done with the page editing options on the left.
+
+\*\*IMPORTAT:<br>\*\*Brand new pages will not have the visual editor option available. They'll need to be saved first.
+
+Draft pages will not have the visual editor available. They will need to be removed from draft mode and saved before the visual editor is available.
+
+#### Switching between editors
+
+Switching between the page editors is simple, but can be frustrating if you don't know where the switch is.
+
+When in full screen mode you can use the toggle buttons at the top to switch between editors.
+
+![](/assets/images/uploads/image-11.png)
+
+When in split mode, you can switch between the editors by clicking on the "More Options" menu (the 3 dots stacked on top of each other) and then you'll be able to switch the editor.
+
+![](/assets/images/uploads/image-13.png)
+
+## Your websites data
+
+On the left hand side of the navigation you will see your websites data. You can think of this kind of like your websites settings/configuration. There options and settings we recommend and don't recommend changing
+
+It is fine to update:
+
+* Authors
+* Banner (sitewide notification)
+* Blog
+* Blog Tags
+* Reviews
+* Site
+
+Be absolutely certain before updating anything in:
+
+* Fonts
+* Theme
+
+Please read the data guides on "Fonts" and "Theme" before making updates to these.
+
+&nbsp;
+
+For more information review the guide on your websites Data
+
+![](/assets/images/uploads/image-14.png)
+
 &nbsp;
