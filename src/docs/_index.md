@@ -116,4 +116,20 @@ For more information review the guide on your websites Data
 
 ![](/assets/images/uploads/image-14.png)
 
-&nbsp;
+## Saving your changes
+
+Anytime you make a change to your website it isn't saved automatically, you need to save it. Any changes that have not been saved will not show up on the website.
+
+### Saving and undoing (discarding)
+
+Where you save changes is also where you go to undo a change you don't want to make permanent. Hitting the save button will pull up all changes you have made so far and if you want to either save or discard the selected changes.
+
+![](/assets/images/uploads/image-15.png)
+
+### "Building" after saved changes
+
+![](/assets/images/uploads/image-17.png)
+
+Anytime you save changes your website has to rebuild to apply the changes. Building takes time and will use up build minutes.
+
+You should make all the changes you want to make and save them all at the same time. It is not recommended to make and save individual changes if you have many planned.
