@@ -74,7 +74,7 @@ New pages will show the text editor by default.
 
 This is the second editor and the one that you are most likely to use. This editor lets you visually see changes and updates to a website before saving them. It updates as you add or remove information. The adding or removing of information is done with the page editing options on the left.
 
-\*\*IMPORTAT:<br>\*\*Brand new pages will not have the visual editor option available. They'll need to be saved first.
+**IMPORTAT:**<br>Brand new pages will not have the visual editor option available. They'll need to be saved first.
 
 Draft pages will not have the visual editor available. They will need to be removed from draft mode and saved before the visual editor is available.
 
