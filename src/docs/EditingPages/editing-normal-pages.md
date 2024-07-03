@@ -28,6 +28,6 @@ Every single page on any website requires a page title, this is where you set yo
 
 ![](/assets/images/uploads/image-21.png)
 
-&gt; Note:<br>&gt; "My Business Name" can be updated in your "site" data file found in your site data section
+> 💡 **Note:**<br>My Business Name" can be updated in your "site" data file found in your site data section
 
 &nbsp;
