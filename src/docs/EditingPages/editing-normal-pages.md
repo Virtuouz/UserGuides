@@ -100,9 +100,7 @@ Sometimes you want to link out to a file or another page directly from your webs
 
 To link out to other websites or files easily from your navigation you would use this option. You would still need to fil out all previous information navigation (Key, Order, Display Title\[optional\], and Parent\[optional\])
 
-❗**IMPORTANT:<br>**This will prevent the page from building and will not show up on your website if a link is placed here.
-
-{% summary_divider %}
+❗**IMPORTANT**:<br>This will prevent the page from building and will not show up on your website if a link is placed here.
 
 ### Page Location
 
