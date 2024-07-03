@@ -1,7 +1,7 @@
 project_name: Vynxlabs - Guides for editing your website
-default_og_image: /assets/images/uploads/alto.png
+default_og_image: /assets/images/uploads/2150695375.jpg
 favicon:
-  small_icon: /assets/images/meta/favicon-16x16.png
-  large_icon: /assets/images/meta/favicon-32x32.png
-  apple_touch_icon: /assets/images/meta/apple-touch-icon.png
-  shortcut_icon: /assets/images/meta/favicon.ico
+  small_icon: /assets/images/uploads/favicon-16x16.png
+  large_icon: /assets/images/uploads/favicon-32x32.png
+  apple_touch_icon: /assets/images/uploads/apple-touch-icon.png
+  shortcut_icon: /assets/images/uploads/favicon.ico

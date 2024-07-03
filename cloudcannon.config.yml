@@ -68,7 +68,7 @@ collections_config:
     path: docs
     base_url: /docs
     icon: file
-    disable_add_folder: true
+    disable_add_folder: false
     schemas:
       default:
         path: src/schemas/docs.md
