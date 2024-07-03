@@ -8,7 +8,7 @@ eleventyNavigation:
 tags: Editing Pages
 draft: false
 ---
-When you first create a an image or edit and existing image you'll presented with many options. Lets break each of the options down
+When you first create a an image or edit and existing page you'll presented with many options. Lets break each of the options down
 
 ![](/assets/images/uploads/image-18.png)
 
@@ -28,7 +28,7 @@ Every single page on any website requires a page title, this is where you set yo
 
 ![](/assets/images/uploads/image-21.png)
 
-💡 **Note:**<br>My Business Name" can be updated in your "site" data file found in your site data section
+💡 **Note:**<br>"My Business Name" can be updated in your "site" data file found in your site data section
 
 ### Remove from navigation
 
@@ -38,11 +38,11 @@ This is an useful option for when you need for a page to exist that you don't wa
 
 ### Navigation
 
-This lets set up how your page will show up in your navigation. This is also where you can create submenus of pages in your navigation.
+This lets you set up how your page will show up in your navigation. This is also where you can create submenus of pages in your navigation.
 
 ![](/assets/images/uploads/image-22.png)
 
-#### Standard use (easy)
+#### Standard Use (easy)
 
 When you first create a page you'll need to remember to update the navigation settings of the page. Lets break down each navigation setting how to use it the simple way
 
@@ -60,4 +60,28 @@ For example, lets say we have pages  Services(2), Blog(3), Contact(2), and Home(
 
 Whichever goes second between Services or Contact will be random since they have matching order.
 
+#### Creating Submenus (advanced)
+
+You should start considering creating submenus for your pages once you start reaching 7 or more normal pages, if not your top navigation will start to look ugly very soon. Below is an example of many pages and no submenus being used. While it's not bad, it's very messy looking.
+
+![](/assets/images/uploads/image-23.png)
+
+##### Key
+
+When creating submenus the key has a new role. It becomes the main page (parent) that all the other pages are to be listed under (children).
+
+##### Putting it all together
+
+Lets use the example of having a Team Members page, but each team member gets their own dedicated page to express themselves with. Your main Team Members page would have a Key of Team Members
+
+![](/assets/images/uploads/image-24.png)
+
+Every individual team member page would then have their own Keys, like their names for example. What each team member page would share in common would be that they would all share the same Parent key. An example of what the navigation could look like:
+
+![](/assets/images/uploads/image-26.png)
+
 &nbsp;
+
+#### External Link
+
+You have the option to lin
