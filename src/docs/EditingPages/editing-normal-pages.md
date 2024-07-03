@@ -104,4 +104,47 @@ To link out to other websites or files easily from your navigation you would use
 
 ### Page Location
 
-&nbsp;
+This is the location of your page on your website. Another way to think of it is where should this page be linked.
+
+However, if you leave the page location blank it will just use your Page Title as the location.
+
+#### Blog - Special Location
+
+The page location/link of "blog" is special. A page with a page location of blog will only show up in the navigation if you have at least 1 blog post. If you have none, this page will not show up even if you have added content to it.
+
+The reasoning for this is that this page will be used in combination with the Content Section of "Blog Cards Full"
+
+### Meta Description
+
+This is short summary description of the page. This short description is what will be shown in search results. Example below:
+
+![](/assets/images/uploads/image-31.png)
+
+This meta description should usually target a keyword your customers are likely to use when searching for your kind of business.
+
+There are plenty of guides online explaining how to write good meta descriptions, but here are some important pieces:
+
+1. Meta descriptions summarize page content for search users.
+2. They influence click-through rates and SEO indirectly.
+3. Characteristics of a good meta description:
+   * Up to 155 characters in length.
+   * Uses active voice and includes a call-to-action.
+   * Relevant to page content and unique.
+   * Utilizes focus keywords and specifications when applicable.
+4. Tips for managing meta descriptions across multiple pages:
+   * Prioritize critical URLs.
+   * No meta description is better than a bad one
+5. Meta descriptions for social sharing enhance visibility on platforms.
+6. Despite Google's discretion in displaying them, well-crafted descriptions improve user experience and engagement.
+
+### Hero Content
+
+Every single page requires a hero section. If not hero section is given, the "Simple Hero" will be used and it'll use your pages "Page Title" for the heading.
+
+Refer to the Hero content guide for more information.
+
+### Content Blocks
+
+These are your website sections that you use to build out your website visually.
+
+Refer to the Content Blocks guide for details on each one.
