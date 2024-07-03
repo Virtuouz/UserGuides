@@ -70,18 +70,34 @@ You should start considering creating submenus for your pages once you start rea
 
 When creating submenus the key has a new role. It becomes the main page (parent) that all the other pages are to be listed under (children).
 
+##### Order
+
+Order will still work the same way as before, except it will be the order within the submenu
+
+##### Display Title
+
+This is where display title might be used more. you might have a parent Key that is easy to type out (like team) but you want to show up as something different in the navigation (like Team Members).
+
+##### Parent
+
+You will place the key of the parent page here for every child page that should be part of the submenu. Continuing with the Team Members example, all the children page would have a parent Key of "team"
+
 ##### Putting it all together
 
 Lets use the example of having a Team Members page, but each team member gets their own dedicated page to express themselves with. Your main Team Members page would have a Key of Team Members
 
-![](/assets/images/uploads/image-24.png)
-
-Every individual team member page would then have their own Keys, like their names for example. What each team member page would share in common would be that they would all share the same Parent key. An example of what the navigation could look like:
-
-![](/assets/images/uploads/image-26.png)
+![](/assets/images/uploads/image-29.png)
 
 &nbsp;
 
+Every individual team member page would then have their own Keys, like their names for example. What each team member page would share in common would be that they would all share the same Parent key. An example of what the navigation could look like:
+
+![](/assets/images/uploads/image-30.png)
+
 #### External Link
 
-You have the option to lin
+Sometimes you want to link out to a file or another page directly from your website navigation so that it is easier for your customers to get to. An example of this might be a payment page that is powered by the software that you use to keep track of billing.
+
+To link out to other websites or files easily from your navigation you would use this option. You would still need to fil out all previous information navigation (Key, Order, Display Title\[optional\], and Parent\[optional\])
+
+You have the option to link out to other websites or files directly from the navigation on your website. To do that you would use this option.
