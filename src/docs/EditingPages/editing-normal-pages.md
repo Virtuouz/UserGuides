@@ -28,6 +28,36 @@ Every single page on any website requires a page title, this is where you set yo
 
 ![](/assets/images/uploads/image-21.png)
 
-> 💡 **Note:**<br>My Business Name" can be updated in your "site" data file found in your site data section
+💡 **Note:**<br>My Business Name" can be updated in your "site" data file found in your site data section
+
+### Remove from navigation
+
+If this option is turned on it will remove the page from all navigation. What this means is that the page won't show up in the top navigation, footer navigation, or even your sitemap (hidden from google).
+
+This is an useful option for when you need for a page to exist that you don't want anyone to find accidentally. A good example of this is a form submission confirmation page. This option can also be turned on when you want to work on a page with the live editor, but don't want people to see that its not ready yet. Doing it this way is most useful with brand new pages.
+
+### Navigation
+
+This lets set up how your page will show up in your navigation. This is also where you can create submenus of pages in your navigation.
+
+![](/assets/images/uploads/image-22.png)
+
+#### Standard use (easy)
+
+When you first create a page you'll need to remember to update the navigation settings of the page. Lets break down each navigation setting how to use it the simple way
+
+##### Key
+
+What you type into the key box is how the page will be identified within the navigation. You can think of the Key as the ID of the page as far as the navigation goes. For simple use, this should be something that quickly explains the pages purpose.
+
+Examples: Home, Services, Contact, Blog
+
+##### Order
+
+In what position this page should show up in the navigation. A page with an order of 1 will be shown first in the navigation compared to pages with order of 1,2,3.... If two pages have the same "Order" one will randomly chosen to actually take that "Order" position and the other page will be placed right after it.
+
+For example, lets say we have pages  Services(2), Blog(3), Contact(2), and Home(1) where the number the number inside the parentheses is that pages order. In the navigation the pages will be shown in this order:<br>Home, Services, Contact, Blog.
+
+Whichever goes second between Services or Contact will be random since they have matching order.
 
 &nbsp;
