@@ -4,7 +4,7 @@ title: Start Here
 layout: layouts/page.html
 eleventyNavigation:
   key: Start Here
-  order:
+  order: '0'
 tags: Site Data
 draft: false
 ---
