@@ -27,7 +27,7 @@ This one does exactly what it sounds like. This will enable or disable the banne
 
 This is where you plan what you want to say in your notification banner.
 
-Whatever you place here, but sure to try and make it short. If you are finding yourself writing out multiple sentences there is a better way. Create a normal page to talk about the notification and exclude it from your navigation. Then once you have built out that page you can link to it from your banner. There are many other options, but this is just one of them for handling lots of text in your banner.
+Whatever you place here, be sure to try and make it short. If you are finding yourself writing out multiple sentences, there is a better way. Create a normal page to talk about the notification and exclude it from your navigation. Then once you have built out that page you can link to it from your banner. There are many other options, but this is just one of them for handling lots of text in your banner.
 
 ### Unique ID
 
