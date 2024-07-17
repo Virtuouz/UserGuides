@@ -75,4 +75,28 @@ The social image that you select is the image that will be shown on platforms th
 
 ![](/assets/images/uploads/image-52.png)
 
-&nbsp;
+## Button
+
+This is the button that will show up on your navigation. This button should use as the primary Call to Action (what you want your website visitors to do). Some common examples would be "Contact us," "Sign Up," "Call Now," "Send us a message," etc.
+
+![](/assets/images/uploads/image-54.png)
+
+## Color Groups
+
+Lastly we have the color group options. This is where you choose the colors of the three main overall sections of your website. The main colors from each group  that will be used for these options are the background color and the text color.
+
+💡**NOTE:<br>**These colors will affect every single page, they are applied across the entire website.
+
+### Nav Color Group
+
+This sets what the navigation colors should be. This color group is slightly different from the rest as it will also use the accent color from group as the underline that signifies the current page in the navigation
+
+![](/assets/images/uploads/image-55.png)
+
+### Color Group
+
+This is the main color group that will be used for the body (everything between the navigation and footer) of the website. This especially effects blog post pages.
+
+### Footer Color Group
+
+The color group for the footer.
