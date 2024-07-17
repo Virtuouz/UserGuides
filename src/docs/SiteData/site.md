@@ -46,6 +46,33 @@ Now here is where you full legal name should be placed. This only used as needed
 
 This is where you will place your websites live link. This piece of information is primarily used for creating your sitemap. A sitemap is how google finds the pages on your website and thus it is crucial that this be your real website URL (website link)
 
-&nbsp;
+## Contact Info
+
+Here is where you can set up your
+
+* Email
+* Phone number
+* Location
+* Hours
+
+![](/assets/images/uploads/image-50.png)
+
+If you don't want to include one or many of these pieces of information, all you need to do is clear out the field.
+
+The Email and Phone fields are self explanatory. They are set up to work with only emails and Phone numbers. Placing incorrect information into these fields will cause this contact information to break anywhere it is used on the site, such as the main navigation.
+
+Location and Hours can be up for interpretation. If you don't have provide your services at a physical building, you could instead set your location as the area that you serve, such as "Serving Magic Valley" The same goes for Hours. Perhaps you don't have a set hour schedule and do appointments instead. You could set the Hours to "By appointment"
+
+## Social Media Links
+
+This is what you use to link out to your social media profiles. The most noticeable place where these will show up is in the footer.
+
+![](/assets/images/uploads/image-51.png)
+
+## Social Image
+
+The social image that you select is the image that will be shown on platforms that support the Open Graph protocol. Simply put, it is the image that will be shown when people link out to your website on platforms that support it. Notable platforms that support this are Facebook, Instagram, X (twitter) and many others.
+
+![](/assets/images/uploads/image-52.png)
 
 &nbsp;
