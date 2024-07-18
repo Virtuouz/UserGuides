@@ -3,7 +3,7 @@ title: Banner
 layout: layouts/page.html
 eleventyNavigation:
   key: Banner
-  order:
+  order: '1'
 tags: Site Data
 draft: false
 _schema: default

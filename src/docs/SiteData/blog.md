@@ -3,7 +3,7 @@ title: Blog
 layout: layouts/page.html
 eleventyNavigation:
   key: Blog
-  order:
+  order: '1'
 tags: Site Data
 draft: false
 _schema: default

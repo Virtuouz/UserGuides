@@ -3,7 +3,7 @@ title: Site
 layout: layouts/page.html
 eleventyNavigation:
   key: Site
-  order:
+  order: '1'
 tags: Site Data
 draft: false
 _schema: default
@@ -85,7 +85,7 @@ This is the button that will show up on your navigation. This button should use 
 
 Lastly we have the color group options. This is where you choose the colors of the three main overall sections of your website. The main colors from each group  that will be used for these options are the background color and the text color.
 
-💡**NOTE:<br>**These colors will affect every single page, they are applied across the entire website.
+💡\*\*NOTE:<br>\*\*These colors will affect every single page, they are applied across the entire website.
 
 ### Nav Color Group
 
