@@ -3,7 +3,7 @@ title: Fonts
 layout: layouts/page.html
 eleventyNavigation:
   key: Fonts
-  order:
+  order: '5'
 tags: Site Data
 draft: false
 _schema: default

@@ -3,7 +3,7 @@ title: Authors
 layout: layouts/page.html
 eleventyNavigation:
   key: Authors
-  order:
+  order: '1'
 tags: Site Data
 draft: false
 _schema: default
