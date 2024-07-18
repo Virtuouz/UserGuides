@@ -36,7 +36,7 @@ Custom Color Groups is where you will add any additional color schemes. This wil
 
 A common use case for an additional custom color group besides the primary would be to set up a dark theme color scheme of your primary colors or vice versa.
 
-💡**NOTE:<br>**Custom Color Groups cannot be set as the primary color group. You will need to modify the primary color group colors if you want to update the primary group colors.
+💡**NOTE:**<br>Custom Color Groups cannot be set as the primary color group. You will need to modify the primary color group colors if you want to update the primary group colors.
 
 ### Choosing Colors
 
