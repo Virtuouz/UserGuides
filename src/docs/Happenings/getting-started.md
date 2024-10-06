@@ -54,7 +54,7 @@ Blog posts can be flagged as a happening which means that they will be picked up
 There are 3 available components for happenings
 
 * &nbsp;Happening Cards Full
-  * This component will show ALL happenings that are either upcoming or in the past. **NOTE:** Read the guide on this component before using
+  * This component will show ALL happenings that are either upcoming or in the past. **NOTE:** [Read the guide](/docs/Happenings/happening-cards-full/) on this component before using
 * Happening cards
   * Shows up to 3 upcoming events and allows for filtering based on a specified tag
 * Upcoming happening
