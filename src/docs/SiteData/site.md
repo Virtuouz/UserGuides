@@ -3,7 +3,7 @@ title: Site
 layout: layouts/page.html
 eleventyNavigation:
   key: Site
-  order: '7'
+  order: '8'
 tags: Site Data
 draft: false
 _schema: default
