@@ -46,3 +46,18 @@ Dedicated happening pages give you the full capabilities of the visual editor to
 ### Blog post happening
 
 Blog posts can be flagged as a happening which means that they will be picked up by the happenings (as long as the requirements above are met). This is a great option when you want to promote something and having all the information the form of text is enough. This option is also easier and faster since you don't have to worry about coming up with the structure for a happening page.
+
+## Available happening components
+
+![](/assets/images/uploads/image-65.png)
+
+There are 3 available components for happenings
+
+* &nbsp;Happening Cards Full
+  * This component will show ALL happenings that are either upcoming or in the past. **NOTE:** Read the guide on this component before using
+* Happening cards
+  * Shows up to 3 upcoming events and allows for filtering based on a specified tag
+* Upcoming happening
+  * Shows the very next upcoming happening in a an almost full screen size. Can also be filtered by tags
+
+&nbsp;
