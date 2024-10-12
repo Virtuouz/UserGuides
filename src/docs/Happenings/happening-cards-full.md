@@ -16,7 +16,7 @@ This is a powerful component that will show all upcoming or past happenings whet
 
 Upcoming events can work in 2 ways. With pagination and without pagination. Pagination is when there are too many happenings to fit on one page and the option to view the next page appears.
 
-![](/assets/images/uploads/image-72.png)
+![](/assets/images/uploads/image-77.png)
 
 ### Without pagination
 
