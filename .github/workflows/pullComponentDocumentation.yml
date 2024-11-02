@@ -24,18 +24,25 @@ jobs:
       - name: Copy Component Library
         run: |
           mkdir -p src/docs/Components
+          echo "Starting to copy component library..."
           # Find all markdown files and copy them based on tags
           find BookShopStarter/_component-library -type f -name "*.md" | while read -r file; do
+            echo "Processing file: $file"
             tag=$(grep -E '^tags:\s*(.+)$' "$file" | sed -E 's/^tags:\s*\[?"?([^",\]]+).*/\1/' | tr -d '"')
             # Remove any leading or trailing whitespace from the extracted tag
             tag=$(echo "$tag" | xargs)
             if [[ -n "$tag" ]]; then
+              echo "Found tag: $tag"
               mkdir -p "src/docs/Components/$tag"
-              cp "$file" "src/docs/Components/$tag/$(basename "$file")"
+              cp -f "$file" "src/docs/Components/$tag/$(basename "$file")"
+              echo "Copied $file to src/docs/Components/$tag (overwritten if existed)"
             else
               echo "No tag found in $file"
             fi
           done
+          echo "Completed copying component library."
+
+
 
       - name: Commit and push changes
         run: |
