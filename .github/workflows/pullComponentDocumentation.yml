@@ -44,6 +44,8 @@ jobs:
           git push -f origin autoDocs  # Force push to overwrite remote
 
       - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PR_EXISTS=$(gh pr list --state=open --head autoDocs | wc -l)
           if [[ "$PR_EXISTS" == "0" ]]; then
