@@ -1,0 +1,53 @@
+name: Pull Component Documentation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every Sunday at midnight UTC
+
+permissions:
+  contents: write
+
+jobs:
+  update-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
+      - name: Clone BookShop Starter
+        run: git clone --depth 1 https://github.com/Virtuouz/BookShopStarter.git
+
+      - name: Copy Component Library
+        run: |
+          mkdir -p src/docs/Components
+          for file in BookShopStarter/_component-library/**/*.md; do
+            # Extract tag (single tag, multiple tags, or tags with spaces)
+            tag=$(grep -oP '(?<=tags:\s*(\[)?)("[^"]+"|\w+)(?=.*\]?)' "$file" | sed 's/"//g' | tr -d ',')
+            
+            # Handle cases where multiple tags are listed by taking the first tag or word
+            tag=${tag%% *}
+            
+            mkdir -p "src/docs/Components/$tag"
+            cp "$file" "src/docs/Components/$tag/$(basename "$file")"
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "github-actions-bot@users.noreply.github.com"
+          git config --global user.name "GitHub Actions Bot"
+          git checkout -b autoDocs
+          git add src/docs/Components
+          git commit -m "Update component library from BookShop Starter"
+          git push origin autoDocs
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update component library from BookShop Starter"
+          title: "Update component library from BookShop Starter"
+          body: "This PR was created by GitHub Actions. It updates the component library from BookShop Starter."
+          base: main
