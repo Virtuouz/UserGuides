@@ -23,15 +23,10 @@ jobs:
       - name: Copy Component Library
         run: |
           mkdir -p src/docs/Components
-          
           # Find all markdown files and copy them based on tags
           find BookShopStarter/_component-library -type f -name "*.md" | while read -r file; do
-            # Extract the tag without the "tags: " prefix
-            tag=$(grep -E '^tags: ' "$file" | sed -E 's/tags:\s*\[?"?([^",\]]+).*/\1/' | tr -d '"')
-            
-            # Only proceed if a tag was found
+            tag=$(grep -E '^tags: (.+)$' "$file" | sed -E 's/tags: \[?"?([^",\]]+).*/\1/' | tr -d '"')
             if [[ -n "$tag" ]]; then
-              # Create the directory based on the first tag and copy the file
               mkdir -p "src/docs/Components/$tag"
               cp "$file" "src/docs/Components/$tag/$(basename "$file")"
             else
@@ -39,26 +34,26 @@ jobs:
             fi
           done
 
-      - name: Commit and push changes
+      - name: Stage and Commit Changes
         run: |
           git config --global user.email "github-actions-bot@users.noreply.github.com"
           git config --global user.name "GitHub Actions Bot"
-          git checkout -b autoDocs || git checkout autoDocs
-          git pull origin autoDocs --rebase  # Pull the latest changes before pushing
           git add src/docs/Components
-          git commit -m "Update component library from BookShop Starter" || echo "No changes to commit"
-          git push origin autoDocs
+          git commit -m "Temporary commit for untracked files"
+
+      - name: Switch to autoDocs Branch
+        run: |
+          git fetch origin autoDocs:autoDocs || echo "autoDocs branch does not exist"
+          git rebase autoDocs  # Use rebase to avoid checkout conflicts
+          git add src/docs/Components
+          git commit -m "Update component library from BookShop Starter" --allow-empty
+          git push origin autoDocs --force  # Force push if necessary
 
       - name: Create Pull Request
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          PR_DATA=$(jq -n --arg title "Update component library from BookShop Starter" \
-                           --arg body "This PR updates the component library from BookShop Starter." \
-                           --arg head "autoDocs" \
-                           --arg base "main" \
-                           '{title: $title, body: $body, head: $head, base: $base}')
-          curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/${{ github.repository }}/pulls \
-               -d "$PR_DATA"
+          PR_EXISTS=$(gh pr list --state=open --head autoDocs | wc -l)
+          if [[ "$PR_EXISTS" == "0" ]]; then
+            gh pr create --title "Update component library from BookShop Starter" --body "This PR updates the component library from BookShop Starter." --base main --head autoDocs
+          else
+            echo "PR already exists for autoDocs branch"
+          fi
