@@ -38,10 +38,10 @@ jobs:
         run: |
           git config --global user.email "github-actions-bot@users.noreply.github.com"
           git config --global user.name "GitHub Actions Bot"
-          git checkout -b development
+          git checkout -b autoDocs
           git add src/docs/Components
           git commit -m "Update component library from BookShop Starter"
-          git push origin development
+          git push origin autoDocs
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
