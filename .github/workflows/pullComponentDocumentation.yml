@@ -26,7 +26,9 @@ jobs:
           mkdir -p src/docs/Components
           # Find all markdown files and copy them based on tags
           find BookShopStarter/_component-library -type f -name "*.md" | while read -r file; do
-            tag=$(grep -E '^tags:\s*\[?"?([^",\]]+)' "$file" | sed -E 's/^tags:\s*\[?"?([^",\]]+).*/\1/' | tr -d '"')
+            tag=$(grep -E '^tags:\s*(.+)$' "$file" | sed -E 's/^tags:\s*\[?"?([^",\]]+).*/\1/' | tr -d '"')
+            # Remove any leading or trailing whitespace from the extracted tag
+            tag=$(echo "$tag" | xargs)
             if [[ -n "$tag" ]]; then
               mkdir -p "src/docs/Components/$tag"
               cp "$file" "src/docs/Components/$tag/$(basename "$file")"
