@@ -34,20 +34,14 @@ jobs:
             fi
           done
 
-      - name: Stage and Commit Changes
+      - name: Commit and push changes
         run: |
           git config --global user.email "github-actions-bot@users.noreply.github.com"
           git config --global user.name "GitHub Actions Bot"
+          git checkout -b autoDocs || git checkout autoDocs
           git add src/docs/Components
-          git commit -m "Temporary commit for untracked files"
-
-      - name: Switch to autoDocs Branch
-        run: |
-          git fetch origin autoDocs:autoDocs || echo "autoDocs branch does not exist"
-          git rebase autoDocs  # Use rebase to avoid checkout conflicts
-          git add src/docs/Components
-          git commit -m "Update component library from BookShop Starter" --allow-empty
-          git push origin autoDocs --force  # Force push if necessary
+          git commit -m "Update component library from BookShop Starter" || echo "No changes to commit"
+          git push -f origin autoDocs  # Force push to overwrite remote
 
       - name: Create Pull Request
         run: |
