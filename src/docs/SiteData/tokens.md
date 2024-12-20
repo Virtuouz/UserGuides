@@ -58,7 +58,7 @@ Tokens follow a specific format depending on their type:
 
 &nbsp;
 
-&nbsp;
+![](/assets/images/uploads/image-84.png)
 
 ---
 
@@ -88,6 +88,8 @@ Create a user-generated token:
 
 * `[[tk.promo.discount]]`: "Get 15% off all services until December 31st!"
 
+![](/assets/images/uploads/image-85.png)
+
 **Example Text:** "Don’t miss out on our latest deal: \[\[tk.promo.discount\]\]."
 
 **Outcome:** Update the `[[tk.promo.discount]]` token when the promotion changes, and all mentions update automatically.
@@ -104,6 +106,12 @@ Use a token group for team information.
 
 * `[[tk.team.leadTechnician.name]]`: "John Doe"
 * `[[tk.team.leadTechnician.title]]`: "Lead Technician"
+
+![](/assets/images/uploads/image-86.png)
+
+![](/assets/images/uploads/image-87.png)
+
+![](/assets/images/uploads/image-88.png)
 
 **Example Text:** "Our team is led by \[\[tk.team.leadTechnician.name\]\], our highly skilled \[\[tk.team.leadTechnician.title\]\]."
 
