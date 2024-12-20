@@ -93,6 +93,8 @@ Use the `st.contactInfo` tokens:
 
 **Example Text:** "Feel free to reach out to us at \[\[st.contactInfo.email\]\] or call \[\[st.contactInfo.phone\]\]. You can visit our location at \[\[st.contactInfo.location\]\]. We’re open \[\[st.contactInfo.hours\]\]."
 
+![](/assets/images/uploads/image-92.png)
+
 **Outcome:** If your email or phone number changes, update it once in the token configuration, and the change applies everywhere.
 
 ### **2\. Promoting Special Offers**
