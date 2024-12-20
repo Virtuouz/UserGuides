@@ -8,7 +8,7 @@ tags: Site Data
 draft: false
 _schema: default
 ---
-![](/assets/images/uploads/image-83.png)
+![](/assets/images/uploads/image-93.png)
 
 Welcome to the token system for your website! Tokens are a powerful tool that allows you to dynamically update and reuse content across your website, saving time and ensuring consistency. This guide will explain what tokens are, how to use them, and provide practical examples and benefits.
 
@@ -77,7 +77,7 @@ Tokens follow a specific format depending on their type:
 
 &nbsp;
 
-![](/assets/images/uploads/image-84.png)
+![](/assets/images/uploads/image-94.png)
 
 ---
 
