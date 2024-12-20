@@ -22,6 +22,25 @@ Tokens are placeholders for data that can be inserted anywhere on your website. 
 
 1. **User-Generated Tokens (`[[tk.*]]`)**: These are custom tokens you create for specific needs, such as promotional messages or reusable text.
 2. **Site Tokens (`[[st.*]]`)**: Predefined tokens linked to your site’s information, such as contact details, business name, or hours.
+   1. **Available Site Tokens**
+      1. **name**. Usage example: **`[[st.name]]`**
+      2. **legalName**: Usage example: **`[[st.legalName]]`**
+      3. **url**: Usage example **`[[st.url]]`**
+      4. **contactInfo**:
+         1. **email**: Usage example **`[[st.contactInfo.email]]`**
+         2. **phone**: Usage example **`[[st.contactInfo.phone]]`**
+         3. **location**: Usage example **`[[st.contactInfo.location]]`**
+         4. **hours**: Usage example **`[[st.contactInfo.hours]]`**
+
+![](/assets/images/uploads/image-89.png)
+
+---
+
+## How to Create Custom Tokens
+
+Tokens and token groups as easily created your "Tokens" data file. You can create single tokens or token groups that can have singles or even more groups. Talk about tokenception.
+
+![](/assets/images/uploads/image-90.png)
 
 ---
 
@@ -48,7 +67,7 @@ Tokens are placeholders for data that can be inserted anywhere on your website. 
 
 Tokens follow a specific format depending on their type:
 
-* **User-Generated Tokens**: `[[tk.key]]` or `[[tk.group.key]]`
+* **User-Generated Tokens**: `[[tk.key]]` or `[[tk.groupName.key]]`
 * **Site Tokens**: `[[st.key]]` or `[[st.contactInfo.key]]`
 
 ### Examples of Token Usage in Text
