@@ -1,7 +1,9 @@
 enable_banner: true
-html: <p>🚧 Guides are still under construction, there is more to come 🚧</p>
-id: 20240807-UnderConstruction
-show_until: 2025-01-01T00:00:00Z
+html: >-
+  <p>If the guides don't answer your question, email us at <a
+  href="mailto:support@vynxlabs.com">support@vynxlabs.com</a></p>
+id: 20241219-support
+show_until: 2026-01-01T00:00:00Z
 _inputs:
   enable_banner:
     type: switch
