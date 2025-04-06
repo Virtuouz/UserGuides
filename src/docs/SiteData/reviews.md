@@ -3,7 +3,7 @@ title: Reviews
 layout: layouts/page.html
 eleventyNavigation:
   key: Reviews
-  order: '8'
+  order: '9'
 tags: Site Data
 draft: false
 _schema: default
