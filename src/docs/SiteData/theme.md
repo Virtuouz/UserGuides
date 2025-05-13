@@ -3,7 +3,7 @@ title: Theme
 layout: layouts/page.html
 eleventyNavigation:
   key: Theme
-  order: '11'
+  order: '12'
 tags: Site Data
 draft: false
 _schema: default

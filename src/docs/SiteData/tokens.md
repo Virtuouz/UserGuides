@@ -3,7 +3,7 @@ title: Tokens
 layout: layouts/page.html
 eleventyNavigation:
   key: Tokens
-  order: '12'
+  order: '13'
 tags: Site Data
 draft: false
 _schema: default
