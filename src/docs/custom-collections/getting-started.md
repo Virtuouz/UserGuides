@@ -43,3 +43,7 @@ The last thing you can do now is add an image, image alt text, and a short descr
 ![](/assets/images/uploads/image-116.png)
 
 ## Collection Content Blocks
+
+You can use the collections you just finished setting up by using the "Collections" content block
+
+&nbsp;
